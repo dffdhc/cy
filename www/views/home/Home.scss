@@ -1,0 +1,26 @@
+
+.quick-action-item{
+  height: 25vw;
+  display: flex;
+  align-items: center;
+  border:1px solid black;
+}
+.quick-action-item + .quick-action-item{
+  margin-left:-1px ;
+}
+
+.shortcut{
+  height:auto;
+}
+.quick-actions{
+  margin-left:1px;
+}
+.quick-actions + .quick-actions{
+  margin-top:-1px;
+}
+.income{
+  font-size: 18px;
+}
+.yun{
+  font-size: 10px;
+}

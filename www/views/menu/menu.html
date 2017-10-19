@@ -1,0 +1,49 @@
+﻿<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-energized">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+
+  <ion-side-menu side="left">
+    <ion-content class="side-background">
+      <div class="row">
+        <div class="col col-66">
+          <h5 style="color: #eeeeee">ldg</h5>
+          <h6 style="color: #eeeeee">1234</h6>
+        </div>
+        <div class="col col-33 col-center text-right" >
+          <span class="energized-bg light">&nbsp;SVIP&nbsp;</span>
+        </div>
+      </div>
+      <ul class="list side-menu">
+        <li class="item item-icon-left item-icon-right" menu-close>
+          <i class="icon ion-model-s"></i>
+          飙车          <i class="icon ion-chevron-right icon-accessory"></i>
+        </li>
+        <li class="item item-icon-left item-icon-right" menu-close>
+          <i class="icon ion-ios-football"></i>
+          推车
+          <i class="icon ion-chevron-right icon-accessory"></i>
+        </li>
+        <li class="item item-icon-left item-icon-right" menu-close>
+          <i class="icon ion-android-mail"></i>
+          邮件
+          <i class="icon ion-chevron-right icon-accessory"></i>
+        </li>
+
+      </ul>
+    </ion-content>
+    <div style="position: fixed; bottom: 10px; left: 10px; z-index: 100;">
+      <a class="button button-light button-clear icon-left ion-android-settings menu-close" ui-sref="app.setting">&nbsp;&nbsp;设置</a>
+    </div>
+  </ion-side-menu>
+</ion-side-menus>
